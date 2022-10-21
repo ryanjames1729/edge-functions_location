@@ -1,0 +1,62 @@
+:root {
+    --color-bg: #000000;
+    --color-text: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --color-bg: #ffffff;
+        --color-text: #000000;
+    }
+}
+
+body, html {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 2rem;
+  }
+  
+.main {
+    min-height: 100vh;
+    /* padding: 4rem 0; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    max-width: 480px;
+}
+  
+.card:hover,
+.card:focus,
+.card:active {
+color: #D21402;
+border-color: #D21402;
+}
