@@ -7,4 +7,4 @@ The way this works is that when you append `?method=transform` the edge function
 
 Of course you need to write a JS file for your edge functions and use a .toml file in your Netlify setup.
 
-Want to see it work? Try out [edge functions](https://whitep4nth3r.com/blog/add-personalization-to-static-html-with-edge-functions-no-browser-javascript/) for yourself.
+Want to see it work? Try out [my edge function](https://amazing-cupcake-4abfac.netlify.app/) for yourself.
